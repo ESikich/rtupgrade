@@ -1,5 +1,28 @@
 #!/bin/bash
 
+################################################################################
+# Description: Real-time Kernel Installation Script
+#
+# This script is used to install the real-time (RT) kernel on an Ubuntu-based
+# system. The RT kernel is designed for low-latency and real-time performance,
+# making it suitable for audio processing, multimedia, and other time-sensitive
+# applications.
+#
+# Please make sure to run this script with root privileges, as it requires
+# administrative access to update and upgrade the system, add the Ubuntu kernel
+# PPA, install the RT kernel, and update GRUB.
+#
+# After running this script, your system will be equipped with the real-time
+# kernel. It is recommended to reboot your system to activate the new kernel.
+#
+# Note: Use caution when modifying your system's kernel, and ensure that it is
+# compatible with your hardware and software requirements.
+#
+# Author: Erik Sikich
+# Date: 2023-1-7
+################################################################################
+
+
 # Exit immediately if a command exits with a non-zero status.
 set -e
 
